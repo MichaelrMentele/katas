@@ -1,0 +1,27 @@
+classes and methods
+	1. What is an implicit return?
+		Ruby will return the last line of a definition if a return is not specified.
+	2. What is a class?
+		A class is a way to organize like things and allow children to inherit functionality. They are a way of collecting behavior together and organizing them by class.
+	3. When should you use a class?
+		A class is useful when you have a collection of like things that share certain basic functions but perhaps have other specific functions.
+	4. How do you create a class?
+		class Class_name
+			class stuff...
+		end
+	5. What is a class instance?
+		You can create an actual object using the class like a function. It is a cookie cut from the class mold.
+	6. CamelCase vs. snake_case
+	7. Instantiating a class by:
+		variable = Class_name.new
+	8. You can set the state of an instance by:
+		- passing arguments 
+		- changing initializations
+	9. The initialize method should:
+		- Allow you to set your state
+		- initialize variables
+	10. A class method is:
+		Used on a class while a instance method is used on an instance.
+	11. #count and #sort are instance methods because:
+		They are used on instances. When you creat an array you are implicitly creating an instance of the array class.
+	12. Declaring Instance vs Class methods:
