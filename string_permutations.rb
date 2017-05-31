@@ -1,6 +1,6 @@
 # DP solution
-# runtime: O(n!)
-# space: O(n) if ruby VM is configured to be tail call optimized
+# runtime: O(k!) where k is the length of the string
+# space: O(k!) elements in the list plus the space on the call stack which is O(log(k)) which is simple O(k!)
 
 def string_permutations(str) 
   return [] if !str || str.length == 0
